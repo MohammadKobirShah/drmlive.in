@@ -2,7 +2,7 @@
 $serverAddress = $_SERVER['HTTP_HOST'] ?? 'default.server.address';
 
 // The original M3U playlist URL
-$playlist_url = "https://tplay.yuvraj49.in/tp/gflNwhWuR3ag/playlist.m3u";
+$playlist_url = "https://raw.githubusercontent.com/MohammadKobirShah/tataplay-generator/refs/heads/main/playlist.m3u";
 
 // Fetch the playlist content
 $playlist_content = file_get_contents($playlist_url);
